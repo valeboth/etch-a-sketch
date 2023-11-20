@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(
+      16,
+      30px
+    ); /* Set the column width to match the square size */
+    grid-template-rows: repeat(
+      16,
+      30px
+    ); /* Set the row height to match the square size */
+    gap: 0; /* Remove any gap between the squares */
+  }
+  
+  .square {
+    width: 100%; /* Ensure each square takes up the full width of its grid cell */
+    height: 100%; /* Ensure each square takes up the full height of its grid cell */
+    border: 1px solid black;
+    box-sizing: border-box;
+    gap: 0;
+  }
+  
